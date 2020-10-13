@@ -1,8 +1,7 @@
 # react-query-native-example
 React-query with React-Native example
 
-##Libraries:
-
+## Libraries:
 - react-query
 - axios
 - @react-native-community/async-storage
@@ -12,8 +11,7 @@ React-query with React-Native example
 - react-native-snackbar
 - humps
 
-##UI-Library
-
+## UI-Library
 - @ui-kitten
 - @eva-design/eva
 
