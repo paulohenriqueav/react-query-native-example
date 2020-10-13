@@ -24,12 +24,6 @@ function api() {
       return camelizeKeys(response);
     },
     async function (error) {
-      if (error?.response?.status == 401) {
-        //adicionar aqui de roteamento para tela de login
-      } else if (error?.response?.status == 409) {
-        //Implementar aqui lógica de modal para APP desatualizado
-      }
-
       return Promise.reject(error.response?.data || error);
     },
   );
